@@ -1,0 +1,13 @@
+{
+  "name": "stacked-tui",
+  "version": "0.1.0",
+  "description": "Beautiful TUI for gh-stack — visualize stacked PRs as interactive graph. Local, reads git log.",
+  "type": "module",
+  "bin": { "stacked-tui": "./src/cli.js" },
+  "scripts": { "test": "node --test test/*.test.js" },
+  "keywords": ["git","stacked-pr","tui","gh-stack","cli"],
+  "author": "trenysx",
+  "license": "Apache-2.0",
+  "engines": { "node": ">=18.0.0" },
+  "dependencies": { "commander": "^12.1.0", "chalk": "^5.3.0", "cli-table3": "^0.6.3" }
+}
